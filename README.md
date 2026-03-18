@@ -159,6 +159,13 @@ These limitations make it a great teaching tool for understanding why efficient 
 
 ---
 
+## 🤝 Contributing
+
+Contributions, improvements, and creative variations of GurpreetSort are welcome!
+Feel free to open an issue or submit a pull request.
+
+---
+
 ## 📄 License
 
 MIT License
