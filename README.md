@@ -1,6 +1,6 @@
-# GurpreetSort
+# GoofySort
 
-GurpreetSort is a comparison-based sorting algorithm created as a creative alternative to traditional sorting techniques. Instead of swapping elements or inserting them into a sorted region, GurpreetSort repeatedly removes out-of-order elements using `splice()` and appends them to the end of the array. After each relocation, the algorithm steps backward to re-check the updated position. Although not efficient, it is an excellent teaching tool for understanding array mutation, iterative correction, and algorithmic creativity.
+GoofySort is a comparison-based sorting algorithm created as a creative alternative to traditional sorting techniques. Instead of swapping elements or inserting them into a sorted region, GoofySort repeatedly removes out-of-order elements using `splice()` and appends them to the end of the array. After each relocation, the algorithm steps backward to re-check the updated position. Although not efficient, it is an excellent teaching tool for understanding array mutation, iterative correction, and algorithmic creativity.
 
 ---
 
@@ -49,7 +49,7 @@ console.log(gurpreetSort(randomArray(10)));
 
 ## 📘 Summary
 
-GurpreetSort processes an array from left to right. When two adjacent elements are out of order, the larger element is removed using `splice()` and appended to the end. The index is then decremented to re-check the new element at that position. This continues until a full pass completes with no relocations.
+GoofySort processes an array from left to right. When two adjacent elements are out of order, the larger element is removed using `splice()` and appended to the end. The index is then decremented to re-check the new element at that position. This continues until a full pass completes with no relocations.
 
 ---
 
@@ -89,7 +89,7 @@ until sorted = true
 
 ## 🎨 Motivation
 
-GurpreetSort was created as a creative challenge: sort an array without using any known sorting algorithm. The result is a unique “remove and append” mechanic that avoids classical patterns and provides a memorable way to understand array mutation and iterative correction.
+GoofySort was created as a creative challenge: sort an array without using any known sorting algorithm. The result is a unique “remove and append” mechanic that avoids classical patterns and provides a memorable way to understand array mutation and iterative correction.
 
 ---
 
@@ -120,7 +120,7 @@ This demonstrates the algorithm’s signature behavior:
 
 ## 🎓 Use Cases
 
-GurpreetSort is valuable in educational contexts:
+GoofySort is valuable in educational contexts:
 
 - Demonstrates array mutation (`splice`, `push`, index shifting)  
 - Shows how local comparisons affect global order  
@@ -153,7 +153,7 @@ These limitations make it a great teaching tool for understanding why efficient 
 | Bubble Sort    | Swaps adjacent elements       |   Yes    |   O(n^2)       | Classic left-to-right neighbor swapping      |
 | Gnome Sort     | Swap + step backward          |   Yes    |   O(n^2)       | Similar backward step behavior               |
 | Insertion Sort | Inserts into sorted prefix    |   Yes    |   O(n^2)       | Efficient element relocation                 |
-| GurpreetSort   | Splice element + append to end|    No    |   O(n^3)       | Unique "yeet to back" relocation mechanic    |
+| GoofySort   | Splice element + append to end|    No    |   O(n^3)       | Unique "yeet to back" relocation mechanic    |
 +----------------+-------------------------------+----------+----------------+----------------------------------------------+
 ```
 
@@ -161,7 +161,7 @@ These limitations make it a great teaching tool for understanding why efficient 
 
 ## 🤝 Contributing
 
-Contributions, improvements, and creative variations of GurpreetSort are welcome!
+Contributions, improvements, and creative variations of GoofySort are welcome!
 Feel free to open an issue or submit a pull request.
 
 ---
@@ -170,7 +170,7 @@ Feel free to open an issue or submit a pull request.
 
 MIT License
 
-Copyright (c) 2026 Gurpreet Grover
+Copyright (c) 2026 Goofy Grover
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
